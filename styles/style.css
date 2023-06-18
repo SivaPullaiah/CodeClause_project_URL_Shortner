@@ -2,6 +2,10 @@ html, body {
     height: 100%;
 }
 
+.card {
+  border-radius: 10px !important;
+}
+
 .back-yellow {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -15,7 +19,7 @@ html, body {
 
 @media (max-width: 767px) {
   .back-yellow {
-    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
     border-top-right-radius: 10px;
   }
   .apple-white {
