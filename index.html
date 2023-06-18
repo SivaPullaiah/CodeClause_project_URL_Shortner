@@ -16,24 +16,27 @@
 </head>
 <body>
     <div class="container h-100 d-flex align-items-center justify-content-center">
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card mb-3" style="max-width: 940px;">
             <div class="row no-gutters">
-                <div class="col-md-4">
+                <div class="col-md-4 back-yellow">
                     <img src="https://res.cloudinary.com/sivapullaiah/image/upload/v1687017716/url-side_wbypb8.png" class="card-img" alt="...">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 apple-white">
                     <div class="card-body">
-                        <h5 class="card-title">SliceURL</h5>
-                        <h1>Shorten Link Example</h1>
-                        <input type="text" id="longUrlInput" placeholder="Enter URL">
-                        <button onclick="shortenUrl()">Shorten</button>
+                        <h5 class="card-title">ScliceURL <i class="fa-solid fa-link-slash"></i></h5>
+                        <p class="card-text">This website will reduce ✨ the length of URL(Uniform Resource Locator). <br> The idea is to minimise the web page address into something that easier to remember and <i class="fa-solid fa-seedling"></i> track.</p>
+                        <div class="d-flex justify-content-between">
+                            <input type="text" class="pl-3 pr-3" id="longUrlInput"  placeholder="Enter URL" style="width: 540px; border-radius: 18px; border: 1px solid #cccccc;">
+                            <button onclick="shortenUrl()" class="button">Shorten</button>
+                        </div>
+                        
                         <div class="copy-link mt-3">
                             <input type="text" class="copy-link-input pl-3 mr-0" placeholder="Your shortenUrl" id="shortUrlInput" readonly>
                             <button type="button" class="copy-link-button">
                               <span class="material-icons"><i class="fa fa-clone" aria-hidden="true"></i></span>
                             </button>
                         </div>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <p class="card-text ml-2"><small class="text-muted">🙏Thanks for visiting.</small></p>
                     </div>
                 </div>
             </div>

@@ -2,31 +2,81 @@ html, body {
     height: 100%;
 }
 
+.back-yellow {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #ffb703;
+}
+
+.apple-white {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+@media (max-width: 767px) {
+  .back-yellow {
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 10px;
+  }
+  .apple-white {
+    border-top-right-radius: opx;
+    border-bottom-left-radius: 10px;
+  }
+}
+
+#longUrlInput ,#shortUrlInput {
+  color: #fb8500;
+  padding: 5px;
+  margin-right: 10px;
+  background: radial-gradient(100% 773.98% at 0% 0%, #ffffff 0%, #edf7ff 80.73%);
+  border: 1px solid #5780e9 !important;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 10px #5780e9;
+}
+
+.button {
+  color: #f1f1d1;
+  border: none;
+  background-color: #fb8500;
+  padding: 5px 10px;
+  border-radius: 30px;
+}
+.button:hover {
+  box-shadow: 0 0 10px #fb8500;
+}
+
+#shortenedUrl {
+  margin-top: 20px;
+}
+
 /* Copy the Short URL */
 
 .copy-link {
-    --height: 36px;
-  
-    display: flex;
-    max-width: 250px;
-  }
-  
-  .copy-link-input {
-    flex-grow: 1;
-    padding: 0 8px;
-    font-size: 14px;
-    border: 1px solid #cccccc;
-    border-right: none;
-    outline: none;
-    border-top-left-radius: 18px;
-    border-bottom-left-radius: 18px;
-  }
-  
-  .copy-link-input:hover {
-    background: #eeeeee;
-  }
-  
-  .copy-link-button {
+  --height: 36px;
+
+  display: flex;
+  max-width: 250px;
+}
+
+.copy-link-input {
+  flex-grow: 1;
+  padding: 0 8px;
+  font-size: 14px;
+  border: 1px solid #cccccc;
+  border-right: none;
+  outline: none;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+}
+
+.copy-link-input:hover {
+  background: #eeeeee;
+}
+
+.copy-link-button {
     flex-shrink: 0;
     width: var(--height);
     height: var(--height);
