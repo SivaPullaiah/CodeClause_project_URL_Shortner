@@ -27,7 +27,12 @@
                         <h1>Shorten Link Example</h1>
                         <input type="text" id="longUrlInput" placeholder="Enter URL">
                         <button onclick="shortenUrl()">Shorten</button>
-                        <input type="text" class="copy-link-input pl-3 mr-0" placeholder="Your shortenUrl" id="shortUrlInput" readonly>
+                        <div class="copy-link mt-3">
+                            <input type="text" class="copy-link-input pl-3 mr-0" placeholder="Your shortenUrl" id="shortUrlInput" readonly>
+                            <button type="button" class="copy-link-button">
+                              <span class="material-icons"><i class="fa fa-clone" aria-hidden="true"></i></span>
+                            </button>
+                        </div>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                 </div>
@@ -35,5 +40,6 @@
         </div>
     </div>
     <script src="scripts/script.js"></script>
+    <script src="scripts/copy.js"></script>
 </body>
 </html>
