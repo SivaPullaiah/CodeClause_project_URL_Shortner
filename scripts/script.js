@@ -4,7 +4,7 @@ function shortenUrl() {
 
     const longUrl = longUrlInput.value;
 
-    const accessToken = '37b5e92787ddfb1e3d98a1b13c7d494ad77ea4a3';
+    const accessToken = '3bd05e6aefbf18281f15b0aa681e120eb52c50bf';
     const apiUrl = 'https://api-ssl.bitly.com/v4/shorten';
 
     const data = {
