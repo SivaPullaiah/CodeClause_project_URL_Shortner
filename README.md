@@ -1,4 +1,4 @@
-# <img height="25" alt="LOGO" src="https://internship.codeclause.com/assets/img/codeclause.png"> CodeClause_project_Portfolio_Website
+# <img height="25" alt="LOGO" src="https://internship.codeclause.com/assets/img/codeclause.png"> CodeClause_project_URL_Shortner
 
 🔗 Introducing CodeClause URL Shortener SliceURL! ✂️🌐
 
@@ -31,9 +31,9 @@ I'm excited ✨ to share with you my latest project 🔥, the CodeClause URL ✂
 
 ## Technologies Used 💻
 
-- Front-end: 
-    🔹 HTML: Providing the structure and layout of the website 🌐
-    🔹 CSS: Styling the user interface and creating an engaging design 🎨
+- Front-end: <br>
+    🔹 HTML: Providing the structure and layout of the website 🌐 <br>
+    🔹 CSS: Styling the user interface and creating an engaging design 🎨<br>
     🔹 JavaScript: Powering the functionality and interactivity of the URL shortener🚀
 
-       In addition, the CodeClause URL Shortener utilizes the Bitly website token to shorten the URLs. This integration ensures that your links are efficiently shortened and ready to be shared with just a few clicks.
+> In addition, the CodeClause URL Shortener utilizes the Bitly website token to shorten the URLs. This integration ensures that your links are efficiently shortened and ready to be shared with just a few clicks.
